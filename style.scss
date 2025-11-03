@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex; // Por padrão, os itens do container ficam um ao lado do outro
+    //justify-content: space-between; //Alinha o primeiro item no começo, o último no final e os outros separados igualmente.
+    justify-content: space-around; //alinha os itens na horizontal
+    align-items: center; //alinha os itens na vertical
+
+    border: solid green 5px;
+    height: 10vh;
+
+    h1 {
+    background-color: rgb(138, 57, 204);
+    }
+
+    nav {
+        background-color: pink;
+    }
+
+
+}
