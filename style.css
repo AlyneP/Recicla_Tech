@@ -9,7 +9,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: solid green 5px;
 }
 header nav {
   height: 10vh;
@@ -22,6 +21,7 @@ header nav a {
   color: #4B5563;
   text-decoration: none;
   font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .btnVerde {
@@ -40,41 +40,43 @@ header nav a {
 .caixaLogo h1 {
   color: #1f2937;
   font-size: 2rem;
+  font-family: "Stack Sans Notch", sans-serif;
 }
 
 .apresentacao {
-  height: 70vh;
-  border: solid red;
+  height: 60vh;
   display: flex;
   justify-content: space-around;
 }
 .apresentacao section {
-  border: solid aqua;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .apresentacao section h2 {
   font-size: 3.75rem;
-  border: solid black;
-  width: 60%;
+  width: 70%;
+  font-family: "Poppins", sans-serif;
 }
 .apresentacao section p {
   font-size: 1.25rem;
   width: 50%;
+  font-family: "Inter", sans-serif;
+  color: #4B5563;
 }
 
 .buttonsapresentação {
-  border: solid;
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
 .buttonsapresentação button {
-  padding: 30px 40px;
+  border-radius: 20px;
+  padding: 20px 40px;
   cursor: pointer;
-  background-color: #16a34a;
+  background-color: #5c9b56;
   color: #ffffff;
+  font-family: "Poppins", sans-serif;
 }
 
 .dadosNumericos {
@@ -96,10 +98,74 @@ header nav a {
   color: #16a34a;
   font-size: 2.5rem;
   font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 .dadosNumericos div p {
   font-size: 1rem;
   color: #4b5563;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: #46556b;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: #1F2937;
+  font-family: "Inter", sans-serif;
+}
+
+.text {
+  background-color: #ffffff;
+  border: solid rgb(161, 114, 114);
+  margin-left: 50px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.text h1 {
+  color: #46556b;
+  font-family: "Poppins", sans-serif;
+}
+.text h3 {
+  color: #1F2937;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+
+.cards {
+  border: solid rgb(39, 189, 169);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  height: 30vh;
+  width: 100%;
+}
+.cards .card {
+  border: solid rgb(204, 139, 139);
+  border-radius: 10px;
+  background-color: #f3f5f8;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 30%;
+}
+.cards .card h3 {
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  color: #16a34a;
+  font-weight: normal;
+}
+.cards .card p {
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.cards .card ul {
+  margin-left: 30px;
+  list-style-position: inside;
+  font-family: "Poppins", sans-serif;
 }
 
 .produtosDisponíveis {
