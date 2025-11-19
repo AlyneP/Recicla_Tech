@@ -78,12 +78,20 @@ header {
     justify-content: space-between;
 
     button {
-        border-radius: 20px;
+        border-radius: 10px;
         padding: 20px 40px;
         cursor: pointer;
         background-color: #5c9b56;
         color: #ffffff;
         font-family: "Poppins", sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .btnazul {
+        background-color: #ffffff;
+        color: blue;
+        font-family: "Poppins", sans-serif;
+        border: solid blue;
     }
 }
 
@@ -192,7 +200,8 @@ header {
     height: 80vh;
 
     article {
-        border: solid #16a34a;
+        border: solid #7f9e8a;
+        border-radius: 10px;
         width: 18%;
         height: 60vh;
         display: flex;
@@ -205,14 +214,23 @@ header {
             width: 100%;
         }
 
+        h3 {
+            font-family: "Poppins", sans-serif;
+            font-size: normal;
+        }
+
         p {
+            font-family: "Poppins", sans-serif;
             text-align: center;
             width: 90%;
+            color: #4B5563;
         }
 
         button {
+            border-radius: 10px;
             margin-bottom: 2rem;
             padding: 1rem;
+            background-color: #16a34a;
         }
     }
 }
