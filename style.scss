@@ -89,9 +89,9 @@ header {
 
     .btnazul {
         background-color: #ffffff;
-        color: blue;
+        color: #2563EB;
         font-family: "Poppins", sans-serif;
-        border: solid blue;
+        border: solid #2563EB;
     }
 }
 
@@ -137,22 +137,24 @@ header {
 
 .text {
     background-color: #ffffff;
-    border: solid rgb(161, 114, 114);
-    margin-left: 50px;
+    //margin-left: 260px;
     height: 20vh;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    align-items: center;
 
     h1{
         color:#46556b;
         font-family: "Poppins", sans-serif;
+        font-size: 2.8rem;
     }
     
     h3{
         color: #1F2937;
         font-family: "Inter", sans-serif;
         font-weight: normal;
+        font-size: 1.4rem;
     }
 }
 
@@ -165,7 +167,7 @@ header {
         width: 100%;
 
         .card {
-            border: solid rgb(204, 139, 139);
+            //border: solid rgb(204, 139, 139);
             border-radius: 10px;
             background-color: #f3f5f8;
             display: flex;
@@ -178,6 +180,7 @@ header {
                 font-family: "Inter", sans-serif;
                 color: #16a34a;
                 font-weight: normal;
+                font-size: 1.5rem;
             }
 
             p{
@@ -190,17 +193,36 @@ header {
                 list-style-position: inside;
                 font-family: "Poppins", sans-serif;
             }
+
+             .doadores {
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            }
+
+            .adquirentes {
+            color: #2563EB;
+            display: flex;
+            align-items: center;
+            }
+
         }
     }
 
+.produtos {
+    border: solid;
+    background: #f4f8fb;
+}
 .produtosDisponíveis {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80vh;
+    border: solid blue;
+    background-color: #F3F5F8;
 
     article {
-        border: solid #7f9e8a;
+        border: solid #16A34A;
         border-radius: 10px;
         width: 18%;
         height: 60vh;
